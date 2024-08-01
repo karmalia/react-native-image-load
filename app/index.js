@@ -9,13 +9,13 @@ export default () => {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "gray",
       }}
     >
       {/* Not loading */}
       <Image
-        source={require("../assets/favicon.png")}
-        style={{ width: 900, height: 900 }}
+        source={require("../assets/small.png")}
+        width={100}
+        height={100}
         resizeMode="contain"
       />
     </View>
